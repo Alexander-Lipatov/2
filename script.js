@@ -1,65 +1,46 @@
-const auto = {
-    model: 'Land Rover',
-    year: 2009,
-    color: 'black',
-}
+//  const bal = +prompt('введи бал по экзамену')
 
-auto.engine = () =>{
-    console.log('дрдрдр');
-}
+//  if(bal>=60){
+//     alert("Вы сдали")
+//  }else{
+//     alert("Вы не сдали")
+//  }
 
-const owner = {
-    name: 'John Doe',
-    age: 20,
-    address: 'street',
-}
-
-owner.age = 30
-
-const book = {
-    title: 'python and javascript',
-    autor: 'it-prog',
-    year: '2024'
-}
-
-console.log(`
-    название ${book.title}; автор ${book.autor}; год издания ${book.year}
-`)
-
-const animal = {
-    makeSound: () => {}
-}
-
-auto.color = 'white'
-
-const product = {
-    title:'prod1',
-    price:'300',
-    qty:10,
-}
-
-product.qty +=5
-
-const computer = {
-    powerOn:()=>{}
-}
-
-owner.address = 'moscow street 20'
-
-const fruit = {
-    name : 'apple',
-    toClean:()=>{}
-}
+// const age = +prompt('Введи возраст')
+// if (age < 18) {
+//     alert('Вы несовершеннолетний')
+// } else if (age >= 65) {
+//     console.log('Вы пожилой человек');
+// } else {
+//     console.log('Вы взрослый');
+// }
 
 
-for (key in owner){
-    console.log(key);
-    console.log(owner[key]);
-}
+// const cofe = confirm('Хочешь кофе?')
+// const tea = confirm('Хочешь чай?')
+// const juice = confirm('Хочешь сок?')
+
+// const drink = prompt('выбери напиток')
 
 
-const city = {
-    name : "London",
-    country:"UK",
-    population:8746900,
-}
+// if (drink === "кофе") {
+//     alert("Пользователь выбрал кофе.")
+// } else if (drink === "чай") {
+//     alert("Пользователь выбрал чай.")
+// } else if (drink === "сок") {
+//     alert("Пользователь выбрал сок.")
+// } else {
+//     alert("Неверный выбор напитка.")
+// }
+
+
+
+// const distance = +prompt('расстояние до места назначения')
+
+// if (distance < 5) {
+//     alert("Подойдет пройти пешком.")
+// } else if (distance >= 5 && distance <= 20) {
+//     alert("Сообразитесь взять велосипед.")
+// } else if (distance > 20) {
+//     alert("Вам нужен автобус.")
+// }
