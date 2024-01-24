@@ -46,7 +46,8 @@
 // }
 
 
-const n1 = +prompt('num1')
-const n2 = +prompt('num2')
+// const n1 = +prompt('num1')
+// const n2 = +prompt('num2')
 
-alert(n1 > n2 ? `Число num1 больше` : n1 < n2 ?`Число num2 больше`: n1===n2 ? `Числа равны`: `неверный ввод`)
+// alert(n1 > n2 ? `Число num1 больше` : n1 < n2 ?`Число num2 больше`: n1===n2 ? `Числа равны`: `неверный ввод`)
+
