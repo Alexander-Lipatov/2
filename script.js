@@ -1,65 +1,75 @@
-const auto = {
-    model: 'Land Rover',
-    year: 2009,
-    color: 'black',
-}
+// const arr = [1,2,3]
+// arr.push(100)
+// console.log(arr);
 
-auto.engine = () =>{
-    console.log('дрдрдр');
-}
+// arr.pop()
+// console.log(arr)
 
-const owner = {
-    name: 'John Doe',
-    age: 20,
-    address: 'street',
-}
+// const arr = ['qwe', 'asd', 'zxc']
+// arr.shift()
+// console.log(arr);
 
-owner.age = 30
+// arr.unshift('blablabla')
+// console.log(arr);
 
-const book = {
-    title: 'python and javascript',
-    autor: 'it-prog',
-    year: '2024'
-}
+// const arr = [1, 2, 3, 4, 5];
+// const arr2 = arr.slice(2, 4);
+// console.log(arr2);
 
-console.log(`
-    название ${book.title}; автор ${book.autor}; год издания ${book.year}
-`)
+// const index = arr.indexOf(4)
+// console.log(index);
 
-const animal = {
-    makeSound: () => {}
-}
+// const arr = ["asdas", 123, "qwe", 1, 4, 14, 22];
+// const filterArr = arr.filter((item) => typeof item === 'number' && item < 100)
+// console.log(filterArr);
 
-auto.color = 'white'
+// const arr = [5,3,2,4,1]
+// const newArr = arr.map(item=>item**item)
+// console.log(newArr);
 
-const product = {
-    title:'prod1',
-    price:'300',
-    qty:10,
-}
+// const arr = ['hello', ' ', 'world', '!!!']
+// console.log(arr.join(''))
+// console.log(arr.reverse())
 
-product.qty +=5
+// const arr = [1,2,3,4,5]
+// console.log(arr.reduce((prev, curr, idx, arr) =>prev + curr));
 
-const computer = {
-    powerOn:()=>{}
-}
+// const strArr = ["qwe", "asd", "zxc"];
+// const numArr = [1, 2, 3, 4, 5];
+// const res = strArr.every(item => typeof item == 'string')
+// console.log(res);
 
-owner.address = 'moscow street 20'
+// const objArr = [
+//   { name: "sasha", age: 252 },
+//   { name: "petya", age: 20 },
+//   { name: "igor", age: 25 },
+// ];
+// const res = objArr.some(value =>value.age === 25)
+// console.log(res);
 
-const fruit = {
-    name : 'apple',
-    toClean:()=>{}
-}
+// const arr = [2, 3, 4, 5, 6, 7, 8, 6, 45, 3, 2];
+// arr.splice(arr.length / 2, 2, "123", 321);
+// console.log(arr);
 
+// const arr = ['a', 'b', 'c', 'd', '!e']
+// console.log(arr.sort());
+// arr.forEach(item=>{
+//     console.log(item);
+// })
 
-for (key in owner){
-    console.log(key);
-    console.log(owner[key]);
-}
+// const arr = [5, 3, 2, 4, 1];
+// console.log(arr.filter((item) => item % 2 == 0));
 
+// const arr = ['qwe','asd','zxc',]
+// const newArr = arr.map(item => item[0])
+// console.log(newArr);
 
-const city = {
-    name : "London",
-    country:"UK",
-    population:8746900,
-}
+// const objArr = [
+//   { name: "sasha", age: 252 },
+//   { name: "petya", age: 20 },
+//   { name: "igor", age: 25 },
+// ];
+// console.log(objArr.find(value=> value.name === 'sasha'));
+
+// const arr = [1,2,[100,200,300],[90,99,199]]
+// console.log(arr.flat());
